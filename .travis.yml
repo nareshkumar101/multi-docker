@@ -10,7 +10,7 @@ after_sucess:
   - docker build -t nareshk101/multi-client ./client
   - docker build -t nareshk101/multi-ngnix ./ngnix
   - docker build -t nareshk101/multi-server ./server
-  - docker build nareshk101/muti-worker ./worker
+  - docker build -t nareshk101/muti-worker ./worker
  
  # Login into docker CLI
 
